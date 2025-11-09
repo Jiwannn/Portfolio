@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Jarnel Jay Alngog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+    <div class="page-fade"></div>
+    <a href="Index.html" class="back-arrow-top-left">
+        <i class="fas fa-arrow-left"></i>
+    </a>
+    
+    <button id="backToTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+    <canvas id="webgl-canvas"></canvas>
+
+    <section class="intro-section fade-in-section">
+        <div class="futuristic-intro-container">
+            <h1 class="welcome-intro futuristic-intro futuristic-animated-intro">
+                <span id="typewriter-text">Welcome to my Portfolio</span>
+                <span class="intro-sub" id="intro-sub-typewriter"></span>
+            </h1>
+        </div>
+    </section>
+
+    <section class="section-card fade-in-section" id="education">
+        <h2>Education</h2>
+        <div class="education-timeline">
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h4>Elementary</h4>
+                    <p class="school">Daniel M Perez Central Elementary School Sped Center</p>
+                    <p class="date">2010 - 2016</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h4>Junior High</h4>
+                    <p class="school">Davao Jones Academy</p>
+                    <p class="date">2018 - 2020</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h4>Senior High</h4>
+                    <p class="school">Davao City National High School</p>
+                    <p class="date">2020 - 2024</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h4>College</h4>
+                    <p class="school">Holy Cross of Davao College</p>
+                    <p class="date">2024 - Present</p>
+                    <p class="status" style="color: var(--accent); font-size: 0.9rem; margin-top: 0.5rem;">Currently in 2nd Year</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-card fade-in-section" id="experience">
+        <h2>Experience</h2>
+        <div class="experience-compact">
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h4>Freelance Web and Java Developer</h4>
+                    <span class="company">Self-Employed — Various Clients</span>
+                    <span class="date">January 2025 — Present</span>
+                </div>
+                <p class="experience-description">Providing web development and Java programming services to various clients, creating custom solutions and applications.</p>
+            </div>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h4>On-the-Job Training (OJT) Intern</h4>
+                    <span class="company">Living Grafix Printing Solutions</span>
+                    <span class="date">March 2024 — April 2024</span>
+                </div>
+                <p class="experience-description">Gained hands-on experience in printing solutions and business operations at McArthur Highway, Matina Crossing, Davao City.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="expertise" class="section-card fade-in-section">
+        <h2>Skills</h2>
+        <div class="skills-container" style="justify-content: center;">
+            <div class="skill-category" style="max-width: 420px;">
+                <h4 style="font-size:2rem;">UI/UX Designer</h4>
+                <p style="font-size:1.2rem; color:#fff; margin-top:1.2rem;">Designs modern, user-friendly interfaces and experiences for web and mobile applications.</p>
+            </div>
+            <div class="skill-category" style="max-width: 420px;">
+                <h4 style="font-size:2rem;">Developer</h4>
+                <p style="font-size:1.2rem; color:#fff; margin-top:1.2rem;">Builds robust systems and applications with <span style="color:var(--accent);font-weight:600;">C++</span> and <span style="color:var(--accent);font-weight:600;">Java</span>.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-card fade-in-section" id="highlights">
+        <h2>Highlights</h2>
+        <div class="video-highlights">
+            <div class="video-highlight">
+                <h4>Coffee Web Design Commission</h4>
+                <video src="coffee.mp4" autoplay loop muted playsinline poster="thumbnails/coffee.jpg"></video>
+            </div>
+            <div class="video-highlight">
+                <h4>SwishxRevere Web Design</h4>
+                <video src="swishxrevere.mp4" autoplay loop muted playsinline poster="thumbnails/swishxrevere.jpg"></video>
+            </div>
+            <div class="video-highlight">
+                <h4>PhoneHub Web Design</h4>
+                <video src="phone.mp4" autoplay loop muted playsinline poster="thumbnails/swishxrevere.jpg"></video>
+            </div>
+            <div class="video-highlight">
+                <h4>Activity Web Design</h4>
+                <video src="Activity.mp4" autoplay loop muted playsinline poster="thumbnails/swishxrevere.jpg"></video>
+            </div>
+            <div class="video-highlight">
+                <h4>Activity Web Design</h4>
+                <video src="Activity1.mp4" autoplay loop muted playsinline poster="thumbnails/swishxrevere.jpg"></video>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-card fade-in-section" id="system-commission">
+        <h2>System Commission</h2>
+        <div class="system-commission-grid">
+            <div class="system-video">
+                <h4>Recipe Finder System</h4>
+                <video src="recipefinder.mp4" autoplay loop muted playsinline poster="thumbnails/swishxrevere.jpg"></video>
+            </div>
+            <div class="system-video">
+                <h4>System Commission</h4>
+                <video src="system.mp4" autoplay loop muted playsinline poster="thumbnails/swishxrevere.jpg"></video>
+            </div>
+        </div>
+        <div class="system-image-container">
+            <img src="system.jpg" alt="Screenshot of system commission project" loading="lazy" onclick="openImageModal('system.jpg', 'System Commission Project')" />
+            <img src="phone.jfif" alt="Screenshot of phone project" loading="lazy" onclick="openImageModal('phone.jfif', 'Phone Project')" />
+            <img src="paluwagan.jfif" alt="Screenshot of paluwagan project" loading="lazy" onclick="openImageModal('paluwagan.jfif', 'Paluwagan Project')" />
+        </div>
+    </section>
+
+    <section class="section-card fade-in-section" id="hobbies">
+        <h2>Hobbies & Music</h2>
+        <div class="hobbies-grid">
+            <div class="hobby-category">
+                <div class="hobby-icon">
+                    <i class="fas fa-video"></i>
+                </div>
+                <h3>Video Editing</h3>
+                <p>Professional video editing and post-production</p>
+                <div class="hobby-content">
+                    <div class="video-dropdown">
+                        <button class="dropdown-btn" onclick="toggleDropdown('video-dropdown')">
+                            <i class="fas fa-play-circle"></i>
+                            <span>Select Video Project</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="dropdown-content" id="video-dropdown">
+                            <div class="dropdown-item" onclick="playVideo('video1', 'Video Project 1')">
+                                <i class="fas fa-video"></i>
+                                <span>Video Project 1</span>
+                            </div>
+                            <div class="dropdown-item" onclick="playVideo('video2', 'Video Project 2')">
+                                <i class="fas fa-video"></i>
+                                <span>Video Project 2</span>
+                            </div>
+                            <div class="dropdown-item" onclick="playVideo('video3', 'Video Project 3')">
+                                <i class="fas fa-video"></i>
+                                <span>Video Project 3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hobby-category">
+                <div class="hobby-icon">
+                    <i class="fas fa-microphone"></i>
+                </div>
+                <h3>Lyrics Videos</h3>
+                <p>Visual storytelling through music</p>
+                <div class="hobby-content">
+                    <div class="video-dropdown">
+                        <button class="dropdown-btn" onclick="toggleDropdown('lyrics-dropdown')">
+                            <i class="fas fa-play-circle"></i>
+                            <span>Select Lyrics Video</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="dropdown-content" id="lyrics-dropdown">
+                            <div class="dropdown-item" onclick="playVideo('lyrics1', 'Lyrics Video 1')">
+                                <i class="fas fa-microphone"></i>
+                                <span>Lyrics Video 1</span>
+                            </div>
+                            <div class="dropdown-item" onclick="playVideo('lyrics2', 'Lyrics Video 2')">
+                                <i class="fas fa-microphone"></i>
+                                <span>Lyrics Video 2</span>
+                            </div>
+                            <div class="dropdown-item" onclick="playVideo('lyrics3', 'Lyrics Video 3')">
+                                <i class="fas fa-microphone"></i>
+                                <span>Lyrics Video 3</span>
+                            </div>
+                            <div class="dropdown-item" onclick="playVideo('lyrics4', 'Lyrics Video 4')">
+                                <i class="fas fa-microphone"></i>
+                                <span>Lyrics Video 4</span>
+                            </div>
+                            <div class="dropdown-item" onclick="playVideo('lyrics5', 'Lyrics Video 5')">
+                                <i class="fas fa-microphone"></i>
+                                <span>Lyrics Video 5</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hobby-category">
+                <div class="hobby-icon">
+                    <i class="fas fa-pen-fancy"></i>
+                </div>
+                <h3>Songwriting</h3>
+                <p>Writing original lyrics and melodies</p>
+                <div class="hobby-content">
+                    <div class="lyrics-dropdown">
+                        <button class="dropdown-btn" onclick="toggleDropdown('songwriting-dropdown')">
+                            <i class="fas fa-pen-fancy"></i>
+                            <span>Select Song</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="dropdown-content" id="songwriting-dropdown">
+                            <div class="dropdown-item" onclick="showLyrics('song1', 'Shining Armor')">
+                                <i class="fas fa-pen-fancy"></i>
+                                <span>Shining Armor</span>
+                            </div>
+                            <div class="dropdown-item" onclick="showLyrics('song2', 'Song Title 2')">
+                                <i class="fas fa-pen-fancy"></i>
+                                <span>Song Title 2</span>
+                            </div>
+                            <div class="dropdown-item" onclick="showLyrics('song3', 'Song Title 3')">
+                                <i class="fas fa-pen-fancy"></i>
+                                <span>Song Title 3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hobby-category">
+                <div class="hobby-icon">
+                    <i class="fas fa-headphones"></i>
+                </div>
+                <h3>Music Collection</h3>
+                <p>Curating and sharing music</p>
+                <div class="hobby-content">
+                    <div class="music-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Songs Written</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5</span>
+                            <span class="stat-label">Lyrics Videos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-card fade-in-section">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2>Get In Touch</h2>
+                <p class="contact-subtitle">Let's work together on your next project</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info-sidebar">
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>Ready to discuss your project</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Response Time</h4>
+                            <p>Within 24 hours</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Services</h4>
+                            <p>Web Design, Development & UI/UX</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" action="https://formspree.io/f/xldnooer" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                        <div id="form-message" role="alert" aria-live="polite"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Player Modal -->
+    <div class="video-modal" id="videoModal">
+        <div class="video-modal-content">
+            <div class="video-modal-header">
+                <h3 class="video-modal-title" id="videoModalTitle">Video Title</h3>
+                <button class="close-modal" onclick="closeVideoModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <video class="video-player" id="videoPlayer" controls>
+                <source src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <div class="lyrics-modal" id="lyricsModal">
+        <div class="lyrics-modal-content">
+            <div class="lyrics-modal-header">
+                <h3 class="lyrics-modal-title" id="lyricsModalTitle">Song Title</h3>
+                <button class="close-modal" onclick="closeLyricsModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="lyrics-text-content" id="lyricsTextContent">
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Modal -->
+    <div class="image-modal" id="imageModal">
+        <div class="image-modal-content">
+            <div class="image-modal-header">
+                <h3 class="image-modal-title" id="imageModalTitle">Project Title</h3>
+                <button class="close-modal" onclick="closeImageModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <img class="modal-image" id="modalImage" src="" alt="Project screenshot" />
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
